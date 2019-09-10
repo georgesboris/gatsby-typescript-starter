@@ -9,11 +9,13 @@ Simple gatsby starter with Typescript support.
   /components
     /GlobalComponent
       GlobalComponent.tsx
+
   /ComponentA
     /components
       /ComponentASubComponent
         ComponentASubComponent.tsx
     ComponentA.tsx
+
   /ComponentB
     ComponentB.tsx
 ```
@@ -36,7 +38,7 @@ Each component folder should hold all it's related files including styles and ot
 
 ## Component file structure by example
 
-```
+```javascript
 /**
  * Imports
  */
